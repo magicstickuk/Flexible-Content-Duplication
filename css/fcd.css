@@ -1,0 +1,33 @@
+.acf-icon.-dup:before {
+    content: "\f105";
+    font-size: 0.9em;
+}
+.acf-icon.acf-dup-icon:before{
+    font-family: dashicons;
+}
+.acf-flexible-content .layout .acf-fc-layout-controls .acf-icon.-dup{
+    visibility: hidden;
+}
+.acf-flexible-content .layout:hover .acf-fc-layout-controls .acf-icon.-dup,
+.acf-flexible-content .layout.-hover .acf-fc-layout-controls .acf-icon.-dup{
+    visibility: visible;
+}
+.remodal-wrapper .remodal{
+    text-align: left;
+}
+.dup-current-option{
+    font-weight: 600;
+}
+.select2-results__options li:nth-of-type(2){
+    font-weight:600;
+    border-bottom: 1px solid;
+}
+#dup-non-saved-notice {
+    background-color: #eaeaea;
+    padding: 0.25em 1em;
+    border-left: 4px solid red;
+    box-sizing: border-box;
+}
+#dup-loading{
+    vertical-align: middle;
+}
