@@ -47,11 +47,11 @@ if(acf){
 
 	});
 
-	acf.addAction('append_field/type=flexible_content', function(){	
+	acf.addAction('append_field/type=flexible_content', function(field){	
 
 		// If new level added show warning
-		jQuery('#dup-non-saved-notice').show();
-	
+		fcd_do_button(field, 'acfcloneindex');
+
 	}); 
 	
 
@@ -71,6 +71,13 @@ function fcd_do_button(field, index){
 
 	// Field name from action params
 	var field_name 	= field.data.name;
+
+	// If new level added show warning
+	if(index == 'acfcloneindex'){
+		
+		jQuery('#dup-non-saved-notice').show();
+		
+	}
 
 
 	// Set the click event on the duplicate icon
