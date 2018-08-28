@@ -22,12 +22,12 @@
     font-weight:600;
     border-bottom: 1px solid;
 }
-#dup-non-saved-notice {
+#dup-loading{
+    vertical-align: middle;
+}
+#dup-non-saved-notice , #dup-empty-level-notice{
     background-color: #eaeaea;
     padding: 0.25em 1em;
     border-left: 4px solid red;
     box-sizing: border-box;
-}
-#dup-loading{
-    vertical-align: middle;
 }

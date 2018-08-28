@@ -209,6 +209,10 @@ function fcd_remodal_markup(){
             <div id="dup-non-saved-notice" class="notice-error" style="display:none;">
                 <p>The page has unsaved changes. Please save your post before duplicating.</p>
             </div>
+
+            <div id="dup-empty-level-notice" class="notice-error" style="display:none;">
+                <p>This section has no data to be saved yet. Duplication not necessary</p>
+            </div>
             
             <h1>Select a page to copy this section to:</h1>
 
