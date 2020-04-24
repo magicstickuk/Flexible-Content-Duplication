@@ -1,4 +1,4 @@
-=== Multisite Post Duplicator ===
+=== Site Post Duplicator ===
 
 Contributors: MagicStick
 Tags: acf, copy, flexible content, duplicate, advanced, custom, fields
